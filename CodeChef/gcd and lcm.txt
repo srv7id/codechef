@@ -1,5 +1,7 @@
 def gcd(a,b):
     if not(a):
+    
+    
         return b
     return gcd(b%a,a)
 t = int(input())
