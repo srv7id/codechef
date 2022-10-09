@@ -1,0 +1,5 @@
+t=int(input())
+while(t):
+    t-=1
+    x,m,d=map(int,input().split())
+    print(min(x*m,x+d))

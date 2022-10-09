@@ -1,0 +1,5 @@
+t=int(input())
+while(t):
+    t-=1
+    a,b,c,d=map(int,input().split())
+    print('YES') if(a+c==180 and b+d==180) else print('NO')

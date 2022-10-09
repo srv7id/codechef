@@ -1,0 +1,6 @@
+import math
+t = int(input())
+while(t):
+    t-=1
+    n=int(input())
+    print((n%10)+(int)(n/(int)(pow(10,(int)(math.log10(n))))))z
