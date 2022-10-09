@@ -1,2 +1,3 @@
 r,o,c=map(int,input().split())
+
 print('YES') if((20-o)*6*6+c>r) else print('NO')
