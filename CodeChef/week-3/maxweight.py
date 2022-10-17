@@ -1,6 +1,8 @@
 from audioop import reverse
 
 
+
+# octofest
 t=int(input())
 while(t):
     t-=1
